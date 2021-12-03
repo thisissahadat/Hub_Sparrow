@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/routine_id"
+            android:title="Routine"
+            android:icon="@drawable/ic_routine"
+            />
+        <item
+            android:id="@+id/result_id"
+            android:title="Result"
+            android:icon="@drawable/ic_exam"
+            />
+        <item
+            android:id="@+id/transport_id"
+            android:title="Transport"
+            android:icon="@drawable/ic_transport"/>
+        <item
+            android:id="@+id/laibrary_id"
+            android:title="Sparrow Laibrary"
+            android:icon="@drawable/ic_laibrary"/>
+
+
+        <item
+            android:id="@+id/facultymembers_id"
+            android:title="Faculty Members"
+            android:icon="@drawable/ic_facultymembers"/>
+
+        <item
+            android:id="@+id/officialcontact_id"
+            android:title="Official Contacts"
+            android:icon="@drawable/ic_office"/>
+
+        <item
+            android:id="@+id/universitywebsite"
+            android:title="University Website"
+            android:icon="@drawable/ic_website"/>
+
+    </group>
+
+
+
+
+
+
+
+
+
+
+
+
+</menu>

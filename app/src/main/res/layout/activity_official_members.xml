@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/appbg"
+    tools:context=".Contacts.Official_Members">
+
+
+    //HUB IT
+
+    <RelativeLayout
+        android:id="@+id/accounts_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <soup.neumorphism.NeumorphCardView
+            android:id="@+id/acounts_card"
+            android:layout_width="200dp"
+            android:layout_height="90dp"
+            app:neumorph_shapeType="flat">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:fontFamily="sans-serif"
+                    android:text="ACCOUNTS"
+                    android:textColor="@color/contact_Text_color"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+
+            </RelativeLayout>
+
+
+        </soup.neumorphism.NeumorphCardView>
+
+        <soup.neumorphism.NeumorphCardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/acounts_card"
+            app:neumorph_lightSource="rightTop"
+            app:neumorph_shapeType="pressed">
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/nobg"
+                android:text="+8801938218526"
+                android:textAlignment="center"
+                android:textColor="@color/teal_700"
+                android:textSize="20sp" />
+
+        </soup.neumorphism.NeumorphCardView>
+    </RelativeLayout>
+
+
+    //Section office
+
+
+    //Exam controller
+
+    <RelativeLayout
+        android:id="@+id/IT_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/accounts_layout">
+
+
+        <soup.neumorphism.NeumorphCardView
+            android:id="@+id/it_card"
+            android:layout_width="200dp"
+            android:layout_height="90dp"
+            app:neumorph_shapeType="flat">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:fontFamily="sans-serif"
+                    android:text="HUB IT"
+                    android:textColor="@color/contact_Text_color"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+
+            </RelativeLayout>
+
+
+        </soup.neumorphism.NeumorphCardView>
+
+        <soup.neumorphism.NeumorphCardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/it_card"
+            app:neumorph_lightSource="rightTop"
+            app:neumorph_shapeType="pressed">
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/nobg"
+                android:text="+8801958466072"
+                android:textAlignment="center"
+                android:textColor="@color/teal_700"
+                android:textSize="20sp" />
+
+        </soup.neumorphism.NeumorphCardView>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/sectionoffice_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/IT_layout">
+
+
+        <soup.neumorphism.NeumorphCardView
+            android:id="@+id/sectionoffice_card"
+            android:layout_width="200dp"
+            android:layout_height="90dp"
+            app:neumorph_shapeType="flat">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:fontFamily="sans-serif"
+                    android:text="SECTION OFFICE"
+                    android:textColor="@color/contact_Text_color"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+
+            </RelativeLayout>
+
+
+        </soup.neumorphism.NeumorphCardView>
+
+        <soup.neumorphism.NeumorphCardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/sectionoffice_card"
+            app:neumorph_lightSource="rightTop"
+            app:neumorph_shapeType="pressed">
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/nobg"
+                android:text="+8801958466072"
+                android:textAlignment="center"
+                android:textColor="@color/teal_700"
+                android:textSize="20sp" />
+
+        </soup.neumorphism.NeumorphCardView>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/examcontroller_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/sectionoffice_layout">
+
+
+        <soup.neumorphism.NeumorphCardView
+            android:id="@+id/examcontroller_card"
+            android:layout_width="200dp"
+            android:layout_height="90dp"
+            app:neumorph_shapeType="flat">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:fontFamily="sans-serif"
+                    android:text="Exam Controller"
+                    android:textColor="@color/contact_Text_color"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+
+            </RelativeLayout>
+
+
+        </soup.neumorphism.NeumorphCardView>
+
+        <soup.neumorphism.NeumorphCardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/examcontroller_card"
+            app:neumorph_lightSource="rightTop"
+            app:neumorph_shapeType="pressed">
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/nobg"
+                android:text="+8801958466072"
+                android:textAlignment="center"
+                android:textColor="@color/teal_700"
+                android:textSize="20sp" />
+
+        </soup.neumorphism.NeumorphCardView>
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

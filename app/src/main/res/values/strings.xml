@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Hub_Sparrow</string>
+    <string name="open">Open Drawer</string>
+    <string name="close">Close Drawer</string>
+    <string name="BarExample">Your Semister Reasults</string>
+    <string name="reasult">Reasult</string>
+</resources>

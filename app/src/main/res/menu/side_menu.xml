@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item
+        android:id="@+id/profileid"
+        android:title="Profile" />
+    <item
+        android:id="@+id/alumni_id"
+        android:title="Alumni"/>
+    <item
+        android:id="@+id/logout_id"
+        android:title="Logout"/>
+
+
+</menu>
